@@ -54,7 +54,8 @@
 }
 
 .hero-text button {
-    background-color: #FF6464;
+    /* background-color: #FF6464; */
+    background-color: #647bff;
     border: none;
     padding: 15px;
     font-size: 20px;
@@ -119,7 +120,7 @@
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin: 10px;
+    margin: 20px;
     font-size: 14px;
 }
 
@@ -184,4 +185,77 @@
 .border {
     border: 1px solid #E0E0E0;
     margin: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 500px;
+    }
+
+    .menu {
+        width: auto;
+        justify-content: center;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+
+    .hero-text {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-text p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .hero-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .post {
+        padding: 5%;
+    }
+
+    .post-content {
+        flex-direction: column;
+    }
+
+    .post-content-detail {
+        text-align: justify;
+    }
+
+    .fitur {
+        padding: 30px;
+    }
+
+    .fitur-card {
+        padding: 30px;
+    }
+
+    .fitur-card-isi {
+        flex-direction: column;
+    }
+
+    .fitur-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .detail-dash {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
 }
